@@ -3,14 +3,14 @@ main{
     margin: auto;
 }
 
-header{
+header, footer{
     width: 900px;
     margin: auto;
-    border: thin solid black;
+    /* border: thin solid black; */
     margin-bottom: 30px;
 
 }
-#iconTitle, #titleDelicious, #iconCluster, #clusterLeft, #clusterRight,#articleTitle, #printSpot, #printSpot>p{
+#iconTitle, #titleDelicious, #iconCluster, #clusterLeft, #clusterRight,#articleTitle, #printSpot, #printSpot>p,#authorPic,#authorText,#authorSpot>p{
     display: inline-block;
 }
 
@@ -39,11 +39,11 @@ header{
 }
 
 .boxes{
-    border: thin solid black;
+    /* border: thin solid black; */
     margin: 30px 0;
 }
 
-#titleDelicious>p, #articleTitle>p, #printSpot>p{
+#titleDelicious>p, #articleTitle>p, #printSpot>p,#authorSpot>p, footer p{
     font-size: .8em;
     font-family: sans-serif;
     color: gray;
@@ -84,5 +84,19 @@ li{
     margin: 5.5px 0;
 }
 
+#authorSpot>p{
+    /* border: thin solid black; */
+    text-align: center;
+    color: white;
+    padding: 15px 35px;
+    margin-left: 15px;
+    background-color: orangered;
+}
 
+#authorText p{
+    font-size: 1em;
+}
 
+footer{
+    text-align: center;
+}
