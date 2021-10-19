@@ -20,7 +20,7 @@ header{
 
 #iconCluster{
     vertical-align: bottom;
-    margin-left: 350px;
+    margin-left: 395px;
 }
 
 #clusterRight{
@@ -43,11 +43,26 @@ header{
     margin: 30px 0;
 }
 
+#titleDelicious>p, #articleTitle>p, #printSpot>p{
+    font-size: .8em;
+    font-family: sans-serif;
+    color: gray;
+}
 
-#articleTitle>h1, #articleTitle>p{
+#articleTitle>h1, #articleTitle>p, #printSpot>p{
     margin: 0;
 }
 
+#articleTitle>h1{
+    font-size: 2em;
+    font-family: cursive;
+}
 
+#printSpot{
+    margin-left: 590px;
+}
 
-#printSpot, #printSpot>p
+#bodyText{
+    text-indent: 40px;
+    font-size: 1.25em;
+}
